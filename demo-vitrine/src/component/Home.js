@@ -1,5 +1,5 @@
 import React from 'react'
-import home1 from './home1-vitrine.jpg'
+import home1 from './img/home1-vitrine.jpg'
 import Gallery from './Gallery.js'
 import Infos from './Infos.js'
 

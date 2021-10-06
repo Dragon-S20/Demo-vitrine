@@ -1,9 +1,9 @@
 import React from 'react'
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import ImgGallery1 from './gallery1-vitrine.jpg'
-import imgGallery2 from './gallery2-vitrine.jpg'
-import ImgGallery3 from './gallery3-vitrine.jpg'
+import ImgGallery1 from './img/gallery1-vitrine.jpg'
+import imgGallery2 from './img/gallery2-vitrine.jpg'
+import ImgGallery3 from './img/gallery3-vitrine.jpg'
 
 
 

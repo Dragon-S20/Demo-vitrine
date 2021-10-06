@@ -3,8 +3,8 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
-import img1 from './info1-vitrine.jpg'
-import img2 from './info2-vitrine.jpg'
+import img1 from './img/info1-vitrine.jpg'
+import img2 from './img/info2-vitrine.jpg'
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,

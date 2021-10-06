@@ -1,9 +1,11 @@
 import React from 'react'
 import Box from '@mui/material/Box';
 
-const showFooter = () => {
+
+
+
+const showContact = () => {
     return ( 
-      <>
       <div style={{ width: '100%' }}>
       <Box
         sx={{
@@ -14,15 +16,13 @@ const showFooter = () => {
           bgcolor: 'background.paper',
         }}
       >
-          <Box sx={{ p: 1, bgcolor: 'grey.300' }}>
-          <p>&copy;Mon Site Vitrine</p>
-          <a href="https://github.com/Dragon-S20">By Dragon-S20</a>
-        </Box>
+        <a href="mailto:fictif-email@gmail.com">Contactez-nous</a>
+        <p>Conditions de Ventes</p>
+        <p>FAQs</p>
         </Box>
         </div>
-        </>
        
     )
 }
 
-export default showFooter
+export default showContact
