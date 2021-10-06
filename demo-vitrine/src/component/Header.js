@@ -1,31 +1,20 @@
-import React from 'react'
-import Menu from './Menu.js'
-import logo from './logo.svg'
+import * as React from 'react';
 import Box from '@mui/material/Box';
-import Home from './Home.js'
-import Color from './Color.js'
+import Menu from './Menu.js'
+import SearchIcon from '@mui/icons-material/Search';
 
-
-const header = () => {
-    return (
-        <>
-        <Box sx={{
-            mx: 'auto',
-            bgcolor: 'primary.main',
-            color: '#fff',
-            width: 200,
-            p: 1,
-            m: 1,
-            borderRadius: 1,
-            textAlign: 'center',
-          }}>
-            <h1>Ma vitrine Mode</h1>
-            <img src={logo} alt="logo"/>
-        </Box>
-        <Menu />
-        <Home />
-        </>
-    )
+const FlexGrow = () => {
+  return (
+    <div style={{ width: '100%' }}>
+      <Box sx={{ display: 'flex', p: 1, bgcolor: 'background.paper'}}>
+      <Box 
+        sx={{ p: 1, flexGrow: 1, bgcolor: 'grey.300' }}><Menu /></Box>
+        <Box 
+        sx={{ p: 1, flexGrow: 1, bgcolor: 'grey.300'}}>Mon site Vitrine</Box>
+        <Box sx={{ p: 1, bgcolor: 'grey.300' }}><SearchIcon color="primary" fontSize="large" sx={{ fontSize: 40 }}/></Box>
+      </Box>
+    </div>
+  );
 }
 
-export default header
+export default FlexGrow
