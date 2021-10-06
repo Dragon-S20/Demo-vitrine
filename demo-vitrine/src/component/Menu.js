@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Fade from '@mui/material/Fade';
+import Icons from './Icons.js'
 
 export default function FadeMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -42,6 +43,7 @@ export default function FadeMenu() {
         <MenuItem onClick={handleClose}>Soldes</MenuItem>
         <MenuItem onClick={handleClose}>A propos</MenuItem>
         <MenuItem onClick={handleClose}>FAQS</MenuItem>
+        <MenuItem onClick={handleClose}><Icons /></MenuItem>
       </Menu>
     </div>
   );

@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 
 const showContact = () => {
     return ( 
+      <>
       <div style={{ width: '100%' }}>
       <Box
         sx={{
@@ -16,11 +17,18 @@ const showContact = () => {
           bgcolor: 'background.paper',
         }}
       >
-        <a href="mailto:fictif-email@gmail.com">Contactez-nous</a>
-        <p>Conditions de Ventes</p>
-        <p>FAQs</p>
+          <Box sx={{ p: 3, order:1, bgcolor: 'grey.300' }}>
+          <a href="mailto:fictif-email@gmail.com">Contactez-nous</a>
+          </Box>
+          <Box sx={{ p: 1, order:2, bgcolor: 'grey.300' }}>
+          <p>Conditions de Ventes</p>
+          </Box>
+          <Box sx={{ p: 1, order:3, bgcolor: 'grey.300' }}>
+          <p>FAQs</p>
+        </Box>
         </Box>
         </div>
+        </>
        
     )
 }

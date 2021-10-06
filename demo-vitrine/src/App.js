@@ -1,6 +1,7 @@
 import Header from './component/Header.js';
 import Home from './component/Home.js'
 import Footer from './component/Footer.js'
+import Contact from './component/Contact.js'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Header />
         </header>
         <Home />
+        <Contact />
         <Footer />
     </div>
   );

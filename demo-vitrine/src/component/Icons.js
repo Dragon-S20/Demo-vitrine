@@ -18,10 +18,10 @@ export default function FlexDirection() {
             bgcolor: 'background.paper',
           }}
         >
-          <Box sx={{ p: 1, bgcolor: 'grey.300' }}><InstagramIcon color="primary" fontSize="large" sx={{ fontSize: 40 }}/></Box>
-          <Box sx={{ p: 1, bgcolor: 'grey.300' }}><TwitterIcon color="primary" fontSize="large" sx={{ fontSize: 40 }}/></Box>
-          <Box sx={{ p: 1, bgcolor: 'grey.300' }}><FacebookIcon color="primary" fontSize="large" sx={{ fontSize: 40 }}/></Box>
-          <Box sx={{ p: 1, bgcolor: 'grey.300' }}><YouTubeIcon color="primary" fontSize="large" sx={{ fontSize: 40 }}/></Box>
+          <Box sx={{ p: 1, bgcolor: 'grey.300' }}><InstagramIcon color="primary" fontSize="small" sx={{ fontSize: 40 }}/></Box>
+          <Box sx={{ p: 1, bgcolor: 'grey.300' }}><TwitterIcon color="primary" fontSize="small" sx={{ fontSize: 40 }}/></Box>
+          <Box sx={{ p: 1, bgcolor: 'grey.300' }}><FacebookIcon color="primary" fontSize="small" sx={{ fontSize: 40 }}/></Box>
+          <Box sx={{ p: 1, bgcolor: 'grey.300' }}><YouTubeIcon color="primary" fontSize="small" sx={{ fontSize: 40 }}/></Box>
         </Box>
         </div>
     )}
