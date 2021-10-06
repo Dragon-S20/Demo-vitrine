@@ -29,10 +29,10 @@ Blandit aliquam etiam erat velit. Pharetra sit amet aliquam id. Leo vel orci por
 Interdum varius sit amet mattis. Pulvinar elementum integer enim neque volutpat. Nulla aliquet enim tortor at auctor urna. Senectus et netus et malesuada fames ac turpis egestas. Aliquam vestibulum morbi blandit cursus risus at ultrices mi. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Egestas dui id ornare arcu odio ut sem. Ornare massa eget egestas purus. Urna neque viverra justo nec ultrices dui sapien eget mi. Pretium viverra suspendisse potenti nullam ac. Gravida quis blandit turpis cursus in hac habitasse.</Item>
         </Grid>
         <Grid item xs={6}>
-          <Item><img src={img1} alt= {'model'} /></Item>
+          <Item><img src={img1} alt= {'model'} style={{ width: '100%' }}/></Item>
         </Grid>
         <Grid item xs={6}>
-          <Item><img src={img2} alt= {'model'} /></Item>
+          <Item><img src={img2} alt= {'model'} style={{ width: '100%' }}/></Item>
         </Grid>
         <Grid item xs={6}>
           <Item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu tincidunt tortor aliquam nulla facilisi cras fermentum. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Lorem sed risus ultricies tristique. Nunc aliquet bibendum enim facilisis gravida neque convallis a. Dui vivamus arcu felis bibendum ut tristique et. Ornare aenean euismod elementum nisi quis eleifend quam. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Mauris ultrices eros in cursus turpis. Pharetra sit amet aliquam id diam maecenas. Ullamcorper velit sed ullamcorper morbi. Nunc scelerisque viverra mauris in. Erat nam at lectus urna duis convallis convallis tellus id. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Tempor nec feugiat nisl pretium fusce id velit ut. Eros in cursus turpis massa tincidunt dui ut. In dictum non consectetur a erat nam at lectus urna.

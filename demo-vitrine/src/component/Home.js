@@ -2,7 +2,7 @@ import React from 'react'
 import home1 from './home1-vitrine.jpg'
 import Gallery from './Gallery.js'
 import Infos from './Infos.js'
-import Icons from './Icons.js'
+
 
 const home = () =>{
     return (
@@ -12,7 +12,6 @@ const home = () =>{
         </article>
         <Gallery />
         <Infos />
-        <Icons />
         </>
     )
 }
