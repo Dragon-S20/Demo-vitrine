@@ -6,7 +6,15 @@ import Button from './Button_infoletter.js'
 export default function BasicTextFields() {
     return (
         <>
-        <Box>
+        <div style={{ width: '100%' }}>
+        <Box
+        sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            p: 1,
+            m: 1,
+            bgcolor: 'background.paper',
+          }}>
             <section>
                 <p>Infolettre</p>
                 <p>Inscrivez - vous pour recevoir nos offres promotionnelles</p>
@@ -24,6 +32,7 @@ export default function BasicTextFields() {
           " variant="filled" />
           </Box>
           <Button />
+          </div>
           </>
           
     )} 
